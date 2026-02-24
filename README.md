@@ -1,8 +1,8 @@
-# 🤗 TOPSIS — HuggingFace Text Generation Model Selector
+# TOPSIS — HuggingFace Text Generation Model Selector
 
 A web app that loads real HuggingFace models, generates text, and uses TOPSIS to find the best one.
 
-## 🚀 Deploy to Streamlit Cloud (Free)
+## Deploy to Streamlit Cloud (Free)
 
 ### Step 1 — Push to GitHub
 ```bash
@@ -19,13 +19,13 @@ git push -u origin main
 2. Sign in with GitHub
 3. Click **"New app"**
 4. Select your repo → branch: `main` → file: `app.py`
-5. Click **Deploy** ✅
+5. Click **Deploy** 
 
 That's it! Free hosting, public URL, runs in the browser.
 
 ---
 
-## 💻 Run Locally
+##  Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
@@ -33,7 +33,7 @@ streamlit run app.py
 
 ---
 
-## 🗂️ Files
+##  Files
 ```
 topsis-web/
 ├── app.py            ← Streamlit web app (run this)
